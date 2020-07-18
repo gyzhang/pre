@@ -18,7 +18,7 @@
 ### 系统介绍
 Pre基于Spring Boot 、Spring Security 、Vue的前后端分离的的RBAC权限管理系统，项目支持数据权限管理，支持后端配置菜单动态路由, 第三方社交登录,努力做最简洁的后台管理系统。
 
-- 基于 Spring Boot 2.2.2 、Spring Security 的RBAC权限管理系统
+- 基于 Spring Boot 2.3.1 、Spring Security 的RBAC权限管理系统
 - 基于 Vue UI框架 Element-ui
 - 作为 Mybatis Plus 学习与生产实践
 - 作为 Lambda 、Stream Api 的学习与生产实践
@@ -85,6 +85,14 @@ Pre基于Spring Boot 、Spring Security 、Vue的前后端分离的的RBAC权限
 任务调度 、免费图床 、七牛云存储 、持续集成
 
 ### 更新日志
+2020年7月18日更新
+
+1.升级所有的依赖包到最新
+
+2.调整到Windows下可用，使用开发环境STS
+
+3.准备做为新人培训教程的教案
+
 2019年8月5日更新  
 修复bug  
 1.修复点击异常日志LOGO以及图片变大  

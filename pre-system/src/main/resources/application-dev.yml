@@ -1,6 +1,9 @@
 jasypt:
   encryptor:
     password: EbfYkitulv73I2p0mXI50JMXoaxZTKJ1
+    algorithm: PBEWithMD5AndDES
+    iv-generator-classname: org.jasypt.iv.NoIvGenerator
+    
 jwt:
   header: Authorization
   tokenHead: 'Bearer '
@@ -62,7 +65,7 @@ spring:
       max-lifetime: 30000
       maximum-pool-size: 10
       minimum-idle: 3
-    password: root
+    password: 123456
     type: com.zaxxer.hikari.HikariDataSource
     url: jdbc:mysql://localhost:3306/pre?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Asia/Shanghai
     username: root
@@ -92,4 +95,4 @@ spring:
     port: 6379
     timeout: 6000ms
 
-uploadFileServerPathPrefix: /Users/lihaodong/Desktop/files
+uploadFileServerPathPrefix: C:\\Users\\palyo\\temp\\files
